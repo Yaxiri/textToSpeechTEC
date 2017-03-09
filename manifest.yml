@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: textToSpeechTEC
+  host: textToSpeechTEC
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - TextVoiceServiceTEC
+  - Cloudant NoSQL DB-5h
